@@ -1,18 +1,35 @@
 ---
-title: This is my second post.
-description: This is a post on My Blog about leveraging agile frameworks.
-date: 2018-07-04
+title: Dream Dancer.
+description: An old Poem
+date: 2019-02-21
 tags:
-  - number-2
+  - Poetry
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+<p>I don't know why I wrote this, it just happened ok</p>
 
-## Section Header
+I am he who bends\
+his will to ensure\
+your dreams are sweet\
+and true
 
-<a href="{{ '/posts/firstpost/' | url }}">First post</a>
-<a href="{{ '/posts/thirdpost/' | url }}">Third post</a>
+So come my love\
+come dream with\
+me and we shall\
+dance in the\
+heavens amongst\
+the stars so bright\
+this glorious night
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+We shall dance sun\
+we shall dance\
+the moon
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+So come my beloved\
+come, come, come\
+dream with me\
+and we shall dance\
+the dance of\
+lovers this glorious\
+night.
+

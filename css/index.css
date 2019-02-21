@@ -20,6 +20,13 @@ body {
   color: var(--white);
   background: var(--darkgray);}
 }
+
+
+p
+{
+    padding-left: 5em;
+
+}
 p:last-child {
   margin-bottom: 0;
 }
@@ -41,6 +48,7 @@ a[href]:visited {
 main {
 padding-right: 15px;
 padding-left: 15px;
+padding-bottom: 25px;
 margin-right: auto;
 margin-left: auto;
 max-width: 70%;
@@ -217,8 +225,9 @@ pre {
   font-weight: bold;
 }
 .tmpl-home .postlist-link {
-  font-size: 1.1875em; /* 19px /16 */
+  font-size: 2em; /* 19px /16 */
   font-weight: 700;
+  text-decoration: none;
 }
 
 
@@ -326,3 +335,13 @@ background: var(--gray);
 
 }
 
+
+.content{
+padding-right: 15px;
+padding-left: 15px;
+padding-bottom: 25px;
+margin-right: auto;
+margin-left: auto;
+position: relative;
+min-width: 500px;
+}
