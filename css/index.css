@@ -51,7 +51,7 @@ padding-left: 15px;
 padding-bottom: 25px;
 margin-right: auto;
 margin-left: auto;
-max-width: 50%;
+width: 70%;
 min-height: 100%;
 border-radius: .5em;
 background: var(--gray);
@@ -284,7 +284,8 @@ min-height: 100%;
 padding-left: 15px;
 margin-right: auto;
 margin-left: auto;
-max-width: 100%;
+width: 80%;
+position: relative;
 }
 
 .container {
@@ -303,8 +304,9 @@ margin-left: auto;
 max-width:50%;
 position: relative;
 text-align: center;
-  font-family: 'Raleway','Open Sans',Arial,Helvetica,sans-serif;
-  background: var(--gray);}
+font-family: 'Raleway','Open Sans',Arial,Helvetica,sans-serif;
+background: var(--gray);
+
 }
 
 .center
