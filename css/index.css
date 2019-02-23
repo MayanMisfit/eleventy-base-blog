@@ -278,7 +278,7 @@ a[href].direct-link:focus:visited,
 
 
 .flex-container > .banner{
-  min-width: 100% !important;
+  max-width: 100% !important;
 }
 
 
