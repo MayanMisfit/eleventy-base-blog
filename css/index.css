@@ -40,6 +40,7 @@ main {
   border-radius: .9em;
   background:#222;
   min-height: 100%;
+  width: 70%;
   justify-content: center;
   align-items: center;
 }
@@ -146,6 +147,18 @@ pre {
 }
 .postlist-item {
   counter-increment: start-from -1;
+  position: relative;
+    margin: 4rem auto;
+    padding: 2rem;
+    border: #444 1px solid;
+    background: #222;
+    word-wrap: break-word;
+    -webkit-box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.75);
+    transform: scale(1);
+    transition: .2s;
+
 }
 .postlist-item:before {
   display: inline-block;
@@ -171,7 +184,7 @@ pre {
   font-weight: bold;
 }
 .tmpl-home .postlist-link {
-  font-size: 2em; /* 19px /16 */
+  font-size: 1.5em; /* 19px /16 */
   font-weight: 700;
 }
 
@@ -232,13 +245,6 @@ a[href].direct-link:focus:visited,
   background-color: var(--darkgray);
 }
 
-.flex-container>div {
-  background-color: #222;
-  color: white;
-  width: 50%;
-  height: 300px;
-}
-
 /* Large */
 .navigation {
   display: flex;
@@ -281,5 +287,16 @@ footer
   height: 3em;
   background-color: #222 !important;
   border-top: 1px dashed var(--lightgray);
+
+}
+
+.logo
+{
+  width: 25px;
+  height: 25px;
+}
+
+.flex-container > div {
+  justify-content: flex-start !important;
 
 }

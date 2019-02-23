@@ -13,6 +13,7 @@ layout: layouts/post.njk
 </div>
 <p class="center"> I killed it</p>
 
-<p>I've spent all evening Fighting my Acer Laptop, trying to get Linux installed on it; but it's just not having it.<br> <br>
-I've tried several different distros with several different USB sticks, I've tried manually configuring the partitions and let the installer auto configure.<br> <br>
-But nope, this damned thing just refuses to play ball, it's a good thing I have two other laptops I guess. </p>
+I've spent all evening Fighting my Acer Laptop, trying to get Linux installed on it; but it's just not having it.<br>
+I've tried several different distros with several different USB sticks,<br>
+I've tried manually configuring the partitions and let the installer auto configure.<br> 
+But nope, this damned thing just refuses to play ball, it's a good thing I have two other laptops I guess.

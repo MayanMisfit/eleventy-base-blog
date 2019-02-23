@@ -11,16 +11,21 @@
   </head>
   <body>
     <header>
+     
+ 
+
+
         <ul class="navigation">
-        {%- for nav in collections.nav | reverse -%}
+          {%- for nav in collections.nav | reverse -%}
         <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
         {%- endfor -%}
       </ul>
+    
     </header>
    
    <div class="flex-container">
 
-<img class="banner" src="/img/banner.png">
+<a href="{{ nav.url | url }}">{{ nav.data.navtitle }}<img class="banner" src="/img/banner.png"></a>
 
 </div>
     <br>
