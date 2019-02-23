@@ -290,13 +290,23 @@ footer
 
 }
 
-.logo
-{
-  width: 25px;
-  height: 25px;
-}
+
 
 .flex-container > div {
+  background-color: #222;
+  width: 45%;
+  margin: 10px;
+  padding: 25px;
+  height: 250px !important;
+  font-size: 18px;
+  border: .1em solid;
   justify-content: flex-start !important;
+  align-content: center;
+  align-items: center;
+}
 
+.under-banner
+{
+  display: flex;
+  text-align: center;
 }
