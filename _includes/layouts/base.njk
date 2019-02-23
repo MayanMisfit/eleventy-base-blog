@@ -11,7 +11,7 @@
   </head>
   <body>
     
-    <header>
+    <header class="w3-container w3-darkgrey">
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
       <ul class="nav">
         {%- for nav in collections.nav | reverse -%}
@@ -22,10 +22,11 @@
 <br>
 <br>
 
-    <div class="container">
+    <div class="w3-container">
 
       <br>
       <br>
+
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
@@ -41,12 +42,12 @@
     <!-- Current page: {{ page.url | url }} -->
     </div>
 
+<br><br>
+      <br>
 <br>
-<br>
-
 
 <div class="cont">
-      <footer>
+      <footer class="w3-container w3-darkgrey">
       <p>Be Yourself, Everyone Else Is Already Taken</p>
     </footer>
 </div>
