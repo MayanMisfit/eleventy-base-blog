@@ -10,46 +10,47 @@
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>
   <body>
-    
-    <header class="w3-container w3-darkgrey">
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-      <ul class="nav">
+    <header>
+        <ul class="navigation">
         {%- for nav in collections.nav | reverse -%}
         <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
         {%- endfor -%}
       </ul>
     </header>
-<br>
-<br>
+   
+   <div class="flex-container">
 
-    <div class="w3-container">
+<img class="banner" src="/img/banner.png">
 
-      <br>
-      <br>
+</div>
+    <br>
+    <br>
+
+
+    <article class="flex-container">
+
+
 
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-
-    
-      
+     
 
       {{ content | safe }}
-
-  
     </main>
 
-    
-    <!-- Current page: {{ page.url | url }} -->
-    </div>
 
-<br><br>
-      <br>
+
+</article>
+<br>
 <br>
 
-<div class="cont">
-      <footer class="w3-container w3-darkgrey">
-      <p>Be Yourself, Everyone Else Is Already Taken</p>
+
+    <footer class="flex-container">
+      
+
+  <p>Be Yourself, Everyone Else Is Already Taken</p>
     </footer>
-</div>
+
+    <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>

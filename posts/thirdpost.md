@@ -8,9 +8,9 @@ tags:
 layout: layouts/post.njk
 ---
 
-
+<div class="center">
 <img src="/img/nope.jpg">
-
+</div>
 <p class="center"> I killed it</p>
 
 <p>I've spent all evening Fighting my Acer Laptop, trying to get Linux installed on it; but it's just not having it.<br> <br>
