@@ -16,7 +16,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: var(--darkgray);
+  color: var(--lightgray);
   background-color: var(--darkgray);
 }
 p:last-child {
@@ -36,19 +36,17 @@ a[href]:visited {
 }
 main {
   padding: 1rem;
-  border:.1em solid;
-  border-radius: .9em;
-  background:#222;
-  min-height: 100%;
   width: 70%;
-  justify-content: center;
-  align-items: center;
+ 
 }
+
 main :first-child {
   margin-top: 0;
 }
 header {
   border-bottom: 1px dashed var(--lightgray);
+  background: #222;
+  padding-top: 10px;
 }
 header:after {
   content: "";
@@ -248,10 +246,11 @@ a[href].direct-link:focus:visited,
 /* Large */
 .navigation {
   display: flex;
+  background-color: #222;
   flex-flow: row wrap;
   margin-right: 50px;
   /* This aligns items to the end line on main-axis */
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 /* Medium screens */
@@ -277,10 +276,6 @@ a[href].direct-link:focus:visited,
 }
 
 
-.flex-container > .banner{
-  max-width: 100% !important;
-}
-
 
 footer
 {
@@ -305,16 +300,24 @@ footer
   align-items: center;
 }
 
-.flex-container > .under-banner {
-  display: flex;
-  background-color: #222;
-  width: 100%;
+.under-banner {
+  color: var(--lightgray);
   margin: 10px;
   padding: 25px;
   height: 3em;
   font-size: 18px;
+  text-align: center;
+  
+}
+
+.flex-container > article{
+  display: flex;
+  background-color: #222;
+  width: 70%;
+  margin: 10px;
+  padding: 25px;
+  font-size: 18px;
   border: .1em solid;
   justify-content: center;
-  align-content: center;
   align-items: center;
 }
